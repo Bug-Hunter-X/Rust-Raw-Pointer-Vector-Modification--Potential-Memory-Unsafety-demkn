@@ -1,0 +1,2 @@
+# Rust Raw Pointer Vector Modification: Potential Memory Unsafety
+This repository demonstrates a common error in Rust involving raw pointers and vector manipulation. Modifying a vector through a raw pointer requires careful attention to memory management to avoid undefined behavior. The `bug.rs` file shows the unsafe code, while `bugSolution.rs` provides a safer alternative.  This example highlights the importance of understanding memory safety in Rust and choosing the appropriate data structures and methods to avoid common pitfalls.
